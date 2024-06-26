@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "oop_beginn01", "oop_beginn01.csproj", "{4BEFDCBE-CA41-45B5-BE85-7298FC11ACEC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UML_Graetzer", "..\UML_Graetzer\UML_Graetzer.csproj", "{2439E477-3B28-4F8F-9E54-9B19FFD356B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,14 @@ Global
 		{4BEFDCBE-CA41-45B5-BE85-7298FC11ACEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BEFDCBE-CA41-45B5-BE85-7298FC11ACEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BEFDCBE-CA41-45B5-BE85-7298FC11ACEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2687BFB0-97FB-4E22-A2F9-6E03FB2DE53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2687BFB0-97FB-4E22-A2F9-6E03FB2DE53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2687BFB0-97FB-4E22-A2F9-6E03FB2DE53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2687BFB0-97FB-4E22-A2F9-6E03FB2DE53E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2439E477-3B28-4F8F-9E54-9B19FFD356B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2439E477-3B28-4F8F-9E54-9B19FFD356B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2439E477-3B28-4F8F-9E54-9B19FFD356B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2439E477-3B28-4F8F-9E54-9B19FFD356B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

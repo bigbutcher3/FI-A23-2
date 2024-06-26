@@ -1,5 +1,4 @@
-﻿
-namespace oop_beginn01
+﻿namespace oop_beginn01
 {
     class Program
     {
@@ -19,9 +18,16 @@ namespace oop_beginn01
             };
             TuWas(VwPolo);
             Kfz audi = new Kfz();   //leeres Objekt
+            Kunde otto = new Kunde(1)
+            {
+                addresse = "Musterstr. 1",
+                name = "Otto Walkes",
+                telefon = "+49 0157 1234567"
+            };
             #endregion
             Console.WriteLine($"Der Hersteller heißt {VwPolo.Hersteller}, das Baujahr des Autos lautet {VwPolo.Baujahr} und die Art ist {VwPolo.KfzArt}.");
             Console.WriteLine($"Der Hersteller heißt {audi.Hersteller}, das Baujahr des Autos lautet {audi.Baujahr} und die Art ist {audi.KfzArt}.");
+            Console.WriteLine($"Der Kunde {otto.Kundennr} heißt {otto.name}, wohnt in {otto.addresse} und hat die Telefonnummer {otto.telefon}.");
         }
 
         /// <summary>
