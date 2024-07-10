@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vererbung01", "..\Vererbung
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vererbung02", "..\Vererbung02\Vererbung02.csproj", "{0605F257-4E71-4317-A906-403C4A8B7C1C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaces01", "..\Interfaces01\Interfaces01.csproj", "{5EAF9221-DB01-4790-BEF5-D1CF3EE3E99E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{0605F257-4E71-4317-A906-403C4A8B7C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0605F257-4E71-4317-A906-403C4A8B7C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0605F257-4E71-4317-A906-403C4A8B7C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EAF9221-DB01-4790-BEF5-D1CF3EE3E99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EAF9221-DB01-4790-BEF5-D1CF3EE3E99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EAF9221-DB01-4790-BEF5-D1CF3EE3E99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EAF9221-DB01-4790-BEF5-D1CF3EE3E99E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
