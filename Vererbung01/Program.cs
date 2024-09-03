@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Vererbung
+namespace Vererbung01
 {
     internal class Program
     {

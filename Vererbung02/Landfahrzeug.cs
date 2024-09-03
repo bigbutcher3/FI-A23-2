@@ -1,4 +1,4 @@
-namespace Vererbung01
+namespace Vererbung02
 {
     public abstract class Landfahrzeug : Fahrzeug
     {

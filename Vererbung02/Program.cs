@@ -1,4 +1,6 @@
-﻿namespace Vererbung01
+﻿using System.Reflection;
+
+namespace Vererbung02
 {
     internal class Program
     {
@@ -12,6 +14,9 @@
             Flugzeug flugzeug = new Flugzeug("Lufthansa", 1990, 20000f, 18.7f);
             Hubschrauber hubschrauber = new Hubschrauber("Hub und Schraub", 2010, 8000f, 10.2f);
             UBoot uBoot = new UBoot("Unter Gang", 1812, 60.4m);
+            flugzeug.Gewicht = 112.6f;
+            hubschrauber.Gewicht = 15.4f;
+            uBoot.Gewicht = 80.3f;
 
             Fahrzeug[] fahrzeuge = new Fahrzeug[]
             {
@@ -19,6 +24,8 @@
                 hubschrauber,
                 uBoot
             };
+            string eigenschaft = "Baujahr";
+            Array.Sort(fahrzeuge, new MySort(Direction.ASC, eigenschaft));
 
             Ausgabe(fahrzeuge);
         }
