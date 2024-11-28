@@ -1,0 +1,32 @@
+{
+  "home": {
+    "title": "Sie befinden sich auf meiner Seite",
+    "href": "\/",
+    "button": "Home",
+    "controllerName": "home"
+  },
+  "anfahrt": {
+    "title": "Anfahrt",
+    "href": "\/anfahrt",
+    "button": "Maps",
+    "controllerName": "anfahrt"
+  },
+  "impressum": {
+    "title": "Impressum",
+    "href": "\/impressum",
+    "button": "Impressum",
+    "controllerName": "impressum"
+  },
+  "ueberuns": {
+    "title": "Alles über mich!!",
+    "href": "\/ueberuns",
+    "button": "Über Mich",
+    "controllerName": "ueberuns"
+  },
+  "reservierung": {
+    "title": "Hallo Page4",
+    "href": "\/reservierung",
+    "button": "Reservierung",
+    "controllerName": "reservierung"
+  }
+ }

@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="card btn-group-lg mt-3">
+        <div class="card-body ">
+            <h3 class="card-title">Konvertierung</h3>
+            <div class="form-group">
+                <form enctype="multipart/form-data">
+                    <div class="row mt-3">
+                        <div class="col-4">
+                            <label for="jsonfiles" class="mb-2">Upload File</label><br>
+                            <input type="file" class="form-control" name="files" id="jsonfiles">
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-6">
+                            <button type="submit" class="btn btn-custom" formmethod="post"
+                                    formaction="/csv/upload" value="Anlegen">Upload beginnen
+                            </button>
+                            <button type="submit" class="btn btn-custom" formmethod="post"
+                                    formaction="/csv/downloadIfFileExists">Download beginnen
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

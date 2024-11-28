@@ -1,0 +1,83 @@
+/*IDTabelle*/
+$id-tabelle: 'imgDownload';
+
+
+##{$id-tabelle}_wrapper .page-link {
+  color: #fff !important;
+  background-color: #007598 !important;
+  border: none !important;
+  border-spacing: 0 !important;
+}
+
+##{$id-tabelle}_wrapper .page-item.active .page-link {
+  background-color: #B3A609 !important;
+  border-spacing: 0 !important;
+  background-image: none !important;
+}
+
+
+##{$id-tabelle}_wrapper .dt-paging-button {
+  padding: 0 0 !important;
+  margin: 0 !important;
+  border: 1px #fff solid !important;
+  min-width: 0 !important;
+}
+
+##{$id-tabelle}_wrapper .page-link:hover,
+##{$id-tabelle}_wrapper .page-link:focus {
+  color: #fff !important;
+  background-color: #B3A609 !important;
+  border-spacing: 0 !important;
+  background-image: none !important;
+}
+
+##{$id-tabelle}_wrapper .dt-paging-button:hover {
+  background-color: #FFFFFF !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff)) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* FF3.6+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* IE10+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #fff 100%) !important; /* W3C */
+}
+
+$id-tabelle: 'maurer';
+
+##{$id-tabelle}_wrapper .page-link {
+  color: #fff !important;
+  background-color: #007598 !important;
+  border: none !important;
+  border-spacing: 0 !important;
+}
+
+##{$id-tabelle}_wrapper .page-item.active .page-link {
+  background-color: #B3A609 !important;
+  border-spacing: 0 !important;
+  background-image: none !important;
+}
+
+
+##{$id-tabelle}_wrapper .dt-paging-button {
+  padding: 0 0 !important;
+  margin: 0 !important;
+  border: 1px #fff solid !important;
+  min-width: 0 !important;
+}
+
+##{$id-tabelle}_wrapper .page-link:hover,
+##{$id-tabelle}_wrapper .page-link:focus {
+  color: #fff !important;
+  background-color: #B3A609 !important;
+  border-spacing: 0 !important;
+  background-image: none !important;
+}
+
+##{$id-tabelle}_wrapper .dt-paging-button:hover {
+  background-color: #FFFFFF !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff)) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* FF3.6+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* IE10+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #fff 100%) !important; /* W3C */
+}

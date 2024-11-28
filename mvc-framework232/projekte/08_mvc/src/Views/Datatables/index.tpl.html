@@ -1,0 +1,35 @@
+<div class="container">
+    <div class="card mt-3">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-12">
+                    <table id="maurer" class="table table-striped wrap hover" style="width:100%">
+                        <thead>
+                        <tr>
+                            {foreach $smarty.const.NAMEARRAY as $item=>$value}
+                            <th>{$value}</th>
+                            {/foreach}
+                        </tr>
+                        </thead>
+                        <tbody>
+                        {foreach $smarty.session.datensatzjson as $datensatz}
+                        <tr>
+                            {foreach $smarty.const.NAMEARRAY as $item => $value}
+                            <td>{$datensatz[$item]}</td>
+                            {/foreach}
+                        </tr>
+                        {/foreach}
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            {foreach $smarty.const.NAMEARRAY as $item=>$value}
+                            <th>{$value}</th>
+                            {/foreach}
+                        </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

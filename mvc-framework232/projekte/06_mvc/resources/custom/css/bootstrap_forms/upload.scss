@@ -1,0 +1,25 @@
+input[type="file"] {
+  border: 1px solid var(--bt-background) !important;
+  border-radius: 0 !important;
+}
+
+input[type="file"]:hover {
+  border: 1px solid var(--bt-background-hover) !important;
+  border-radius: 0 !important;
+}
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--bt-background);
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color:var(--bt-background);
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--bt-background);
+}
+.form-control:disabled, .form-control[readonly] {
+  background-color: var(--bg-font-coler) !important;
+  opacity: 1 !important;
+}

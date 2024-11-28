@@ -1,0 +1,79 @@
+{config_load file='config/smarty.conf' section="Kunden"}
+<div class="card  mt-3">
+    <div class="card-body ">
+        <h3 class="card-title">Hallo Text {#cardTitleConf#}</h3>
+        <h3 class="card-title">Hallo Text {$cardTitle}</h3>
+        <h3>{#seitenTitel#}</h3>
+        <h3>{#nocheintitle#}</h3>
+        <div class="row">
+            <div class="col-6">
+                {*Arrays Kommentare*}
+                {* dies ist ein einzeiliger Kommentar *}
+
+                {* dies ist ein mehrzeiliger
+                Kommentar, der nicht zum
+                Browser gesandt wird.
+                *}
+                <pre>
+
+                    {$array|@json_encode}
+                    {$array|@json_encode nofilter}
+                </pre>
+                Hallo {$array[0]}, herzlich Willkommen!
+                <br>
+                {foreach $array as $item}
+                {$item}<br>
+                {/foreach}
+
+                {foreach $arrayAsso as $item=>$value}
+                {$item}:{$value}<br>
+                {/foreach}
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+<pre>
+
+   </pre>
+                <ul>
+                    <li>{$kontakteAssoziativen.fax}</li>
+                    <li>{$kontakteAssoziativen.email}</li>
+                    <li>
+                        <ul>
+                            <li>{$kontakteAssoziativen.telefon.privat}</li>
+                            <li>{$kontakteAssoziativen.telefon.mobil}</li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul>
+                    <li>{$kontakte[0]}</li>
+                    <li>{$kontakte[1]}</li>
+                    <li>
+                        <ul>
+                            <li>{$kontakte[2][0]}</li>
+                            <li>{$kontakte[2][1]}</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    {foreach from=$kollegenMitVorname key=k item=vorname}
+                    <li>{$k}: {$vorname}</li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        {* einbinden des Header-Templates *}
+        <br>
+        {include file="/vagrant/projekte/07_mvc/header.tpl"}
+        <br>
+        {$smarty.server.REQUEST_URI}
+        <br>
+        {$smarty.server.SERVER_NAME}
+        <br>
+        {include file="{$smarty.current_dir}/foot.tpl"}
+        <br>
+    </div>
+</div>

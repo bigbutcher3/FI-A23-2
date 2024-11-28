@@ -1,0 +1,8 @@
+{
+  "namespace": "meinnamespacejson",
+  "dirs":
+          [
+            "src\/",
+            "template\/"
+          ]
+}

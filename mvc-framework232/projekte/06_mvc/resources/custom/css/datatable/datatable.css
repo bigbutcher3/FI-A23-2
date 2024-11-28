@@ -1,0 +1,18 @@
+#example_length .form-select {
+    background-image: none !important;
+}
+
+#example_paginate .page-link {
+    color: #fff !important;
+    background-color: #007598 !important;
+}
+
+#example_paginate .page-item.active .page-link {
+    background-color: #B3A609 !important;
+}
+
+.paginate_button .page-item:hover {
+    color: #fff !important;
+    border: none !important;
+    background-color: #e51d1d !important;
+}

@@ -1,0 +1,40 @@
+{
+  "name": "06_mvc",
+  "version": "1.0.0",
+  "description": "Mein erstes GULPSASS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Detlef Maurer",
+  "license": "ISC",
+  "devDependencies": {
+    "audit": "^0.0.6",
+    "bootstrap": "^5.3.3",
+    "bootstrap-datepicker": "^1.10.0",
+    "bootstrap-filestyle": "^1.2.1",
+    "bootstrap-icons": "^1.11.3",
+    "bootstrap-year-calendar": "^1.1.1",
+    "gulp": "^4.0.2",
+    "gulp-changed": "^5.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-concat-css": "^3.1.0",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-imagemin": "^9.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-uglify-es": "^3.0.0",
+    "gulp-watch": "^5.0.1",
+    "imagemin-gifsicle": "^7.0.0",
+    "imagemin-mozjpeg": "^10.0.0",
+    "imagemin-optipng": "^8.0.0",
+    "imagemin-svgo": "^11.0.1",
+    "jquery": "^3.7.1",
+    "jquery.session": "^1.0.0",
+    "npm": "^10.8.2",
+    "sass": "^1.71.1",
+    "update": "^0.7.4"
+  }
+}

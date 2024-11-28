@@ -1,0 +1,24 @@
+body {
+  background-color: var(--body-bg-color);
+  color: var(--body-color);
+  font-size: var(--body-font-size);
+  font-family: var(--body-font-family);
+  line-height: 150% !important;
+}
+
+.text-justify {
+  text-align: justify;
+  margin-bottom: 0 !important;
+}
+
+.card-body {
+  padding-left: 4em !important;
+  padding-right: 4em !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  border-top: 0 solid transparent;
+}
+
+
+

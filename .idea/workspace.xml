@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="022fffc9-b7d8-4d8a-bf97-11b30c26e85f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PHP_Test/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/Themen/Schnittmenge.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/Themen/ggt.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/Zahlensysteme/Seite.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/css/dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/js/dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/js/jquery-3.7.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/template/footer.tpl.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/template/head.tpl.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PHP_Test/public/template/headDataTables.tpl.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_Test/.idea/PHP_Test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_Test/.idea/PHP_Test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PHP_Test/public/Themen/marathon.php" beforeDir="false" afterPath="$PROJECT_DIR$/PHP_Test/public/Themen/marathon.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/oop_beginn01/oop_beginn01.sln" beforeDir="false" afterPath="$PROJECT_DIR$/oop_beginn01/oop_beginn01.sln" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Rechnungsausgabe/Artikel.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rechnungsausgabe/BestellPosition.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rechnungsausgabe/Bestellung.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rechnungsausgabe/Kunde.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rechnungsausgabe/Program.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rechnungsausgabe/Rechnung.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Rechnungsausgabe/RechnungsDruck.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2kGx5GCvop7N8WCKidHNWVoXo7J" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "Kiki",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/FI-A23-2/mvc-framework232",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PS-241.18968.24" />
+        <option value="bundled-php-predefined-ba97393d7c68-48a1a656d44e-com.jetbrains.php.sharedIndexes-PS-241.18968.24" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="022fffc9-b7d8-4d8a-bf97-11b30c26e85f" name="Changes" comment="" />
+      <created>1722923531454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1722923531454</updated>
+      <workItem from="1722923531852" duration="293000" />
+      <workItem from="1722923873092" duration="751000" />
+      <workItem from="1722937563265" duration="38000" />
+      <workItem from="1723184330193" duration="44000" />
+      <workItem from="1725869469646" duration="1157000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+</project>

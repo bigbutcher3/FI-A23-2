@@ -1,0 +1,15 @@
+h1{
+    color: red;
+}
+h2{
+    color: #0a58ca;
+}
+.size2em{
+    margin: 10px 30px 20px 30px;
+}
+.farbe{
+    color: red;
+}
+#idSize{
+    font-size: 4em;
+}

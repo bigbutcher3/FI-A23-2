@@ -1,0 +1,7 @@
+{
+  "namespace": "mvc_second",
+  "dirs": [
+    "src\/",
+    "template\/"
+  ]
+}

@@ -1,0 +1,78 @@
+<div class="card  mt-3">
+    <div class="card-body ">
+        <div class="row">
+            <div class="col-6">
+                <h1>{$smarty.const.TEXTCONST}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.const.TEMPLATEINFOJSON as $item}
+                    <li>{$item['controllerName']}</li>
+                    {/foreach}
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.const.TEMPLATEINFOJSON as $item}
+                    <li>{$item['title']}</li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.const.TESTARRAY as $value}
+                    <li>{$value}</li>
+                    {/foreach}
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.const.TESTARRAYASSO as $item=>$value}
+                    <li>{$item}</li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <h1>{$smarty.session.text}</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.session.json as $item}
+                    <li>{$item['controllerName']}</li>
+                    {/foreach}
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.session.json as $item}
+                    <li>{$item['title']}</li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.session.array as $value}
+                    <li>{$value}</li>
+                    {/foreach}
+                </ul>
+            </div>
+            <div class="col-6">
+                <ul>
+                    {foreach $smarty.session.arrayasso as $item=>$value}
+                    <li>{$item}</li>
+                    {/foreach}
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,61 @@
+/*IDTabelle*/
+$id-tabelle: 'example';
+
+##{$id-tabelle}_wrapper .page-link {
+  color: #000000 !important;
+  background-color: #ffffff !important;
+  /*border: none !important;*/
+
+  border-spacing: 0 !important;
+  font-size: 1em !important;
+  font-family: var(--body-font-family);
+}
+
+##{$id-tabelle}_wrapper .page-item.active .page-link {
+  color: #FFFFFF !important;
+  background-color: #B3A609 !important;
+  border-spacing: 0 !important;
+  background-image: none !important;
+  border: none !important;
+}
+
+##{$id-tabelle}_wrapper .dt-paging-button {
+  padding: 0 0 !important;
+  margin: 0 !important;
+  border: 1px #fff solid !important;
+  min-width: 0 !important;
+}
+
+##{$id-tabelle}_wrapper .page-link:hover,
+##{$id-tabelle}_wrapper .page-link:focus {
+  color: #fff !important;
+  background-color: #B3A609 !important;
+  border-spacing: 0 !important;
+  background-image: none !important;
+}
+
+##{$id-tabelle}_wrapper .dt-paging-button:hover {
+  background-color: #FFFFFF !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #ffffff)) !important; /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* Chrome10+,Safari5.1+ */
+  background: -moz-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* FF3.6+ */
+  background: -ms-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* IE10+ */
+  background: -o-linear-gradient(top, #ffffff 0%, #fff 100%) !important; /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #fff 100%) !important; /* W3C */
+}
+##{$id-tabelle}_wrapper .dt-button
+{
+  background-color: var(--bt-background) !important;
+  border-color: var(--bt-background) !important;
+  color: var(--bt-color) !important;
+  border-radius: 5px !important;
+}
+##{$id-tabelle}_wrapper .dt-button:hover
+{
+  background-color: var(--bt-background-hover) !important;;
+  border-color: var(--bt-background-hover) !important;;
+  color: var(--bt-color) !important;
+  border-radius: 5px !important;
+}
+
+

@@ -1,0 +1,25 @@
+.btn-custom:hover {
+  background-color: var(--bt-background-hover) !important;;
+  border-color: var(--bt-background-hover) !important;;
+  color: var(--bt-color) !important;
+}
+
+.btn-custom {
+  background-color: var(--bt-background) !important;
+  border-color: var(--bt-background) !important;
+  color: var(--bt-color) !important;
+}
+
+.btn.disabled, .btn:disabled, fieldset:disabled .btn {
+  background-color: var(--bt-background)!important;
+  border-color: var(--bt-background);
+}
+
+.btn-no-radius {
+  border-radius: 0 !important;
+}
+
+.colorUpload {
+  color: var(--bt-background) !important;
+}
+

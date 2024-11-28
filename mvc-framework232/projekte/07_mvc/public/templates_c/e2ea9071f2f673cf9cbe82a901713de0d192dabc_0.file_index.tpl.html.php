@@ -1,0 +1,57 @@
+<?php
+/* Smarty version 5.4.1, created on 2024-09-23 10:35:48
+  from 'file:/vagrant/projekte/07_mvc/template/Navi/index.tpl.html' */
+
+/* @var \Smarty\Template $_smarty_tpl */
+if ($_smarty_tpl->getCompiled()->isFresh($_smarty_tpl, array (
+  'version' => '5.4.1',
+  'unifunc' => 'content_66f12864429671_68256384',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'e2ea9071f2f673cf9cbe82a901713de0d192dabc' => 
+    array (
+      0 => '/vagrant/projekte/07_mvc/template/Navi/index.tpl.html',
+      1 => 1724671325,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+))) {
+function content_66f12864429671_68256384 (\Smarty\Template $_smarty_tpl) {
+$_smarty_current_dir = '/vagrant/projekte/07_mvc/template/Navi';
+?>
+<nav class="navbar navbar-expand-lg navbar-light justify-content-lg-center mt-3">
+        <a class="navbar-brand nav-link <?php if ($_smarty_tpl->getValue('ActivItem') == 'home') {?> active <?php }?>" href="/">Home</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTop" aria-controls="navbarTop"
+                aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTop">
+            <ul class="nav-pills navbar-nav">
+                <?php
+$_from = $_smarty_tpl->getSmarty()->getRuntime('Foreach')->init($_smarty_tpl, (defined('TEMPLATEINFOJSON') ? constant('TEMPLATEINFOJSON') : null), 'item');
+$foreach0DoElse = true;
+foreach ($_from ?? [] as $_smarty_tpl->getVariable('item')->value) {
+$foreach0DoElse = false;
+?>
+                <?php if ($_smarty_tpl->getValue('item')['controllerName'] != 'home') {?>
+                <li class="nav-item">
+                    <a class="nav-link <?php if ($_smarty_tpl->getValue('ActivItem') === $_smarty_tpl->getValue('item')['controllerName']) {?> active <?php }?>" href="<?php echo $_smarty_tpl->getValue('item')['href'];?>
+"><?php echo $_smarty_tpl->getValue('item')['button'];?>
+</a>
+                </li>
+                <?php }?>
+                <?php
+}
+$_smarty_tpl->getSmarty()->getRuntime('Foreach')->restore($_smarty_tpl, 1);?>
+
+            </ul>
+        </div>
+    </nav>
+
+<div class="container"><?php }
+}

@@ -1,0 +1,24 @@
+<div class="card  mt-3">
+    <div class="card-body ">
+        <div class="row">
+            <div class="col-6">
+                <ul>
+                    {foreach from=$personen->getNameArray() item=name}
+                    <li>{$name}</li>
+                    {/foreach}
+                </ul>
+                <ul>
+                    {foreach $personen->getNameArray() as $item}
+                    <li>{$item}</li>
+                    {/foreach}
+                </ul>
+            </div>
+            <div class="col-6">
+
+                <h6>Name: {$personen->name}</h6>
+                <h6>Name: {$personen->vorname}</h6>
+                <h6>Name: {$personen->getGeburtsdatum()}</h6>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,9 @@
+a:link, a:visited {
+    color: var(--bt-background);
+    text-decoration: none;
+}
+
+a:focus, a:hover, a:active {
+    color: var(--bt-background-hover);
+    text-decoration: none;
+}

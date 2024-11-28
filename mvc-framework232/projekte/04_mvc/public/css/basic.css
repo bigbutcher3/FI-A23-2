@@ -1,0 +1,15 @@
+.iconSize{
+    font-size: 10em;
+    color: #2000ff;
+    padding: 100px;
+}
+.imgSize
+{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+.active{
+    background-color: #0a53be;
+    color: #FFF !important;
+}

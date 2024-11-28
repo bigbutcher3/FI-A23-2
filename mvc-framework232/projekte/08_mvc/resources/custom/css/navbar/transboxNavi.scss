@@ -1,0 +1,15 @@
+div.transbox {
+    background-color: var(--transbox-bg-color);
+    opacity: 0.8;
+    filter: alpha(opacity=80); /* For IE8 and earlier */
+    height: 60px;
+}
+
+.trailer {
+    margin-top: -50px;
+
+}
+.img-trailer{
+    margin-top: -60px;
+    z-index:-1;
+}

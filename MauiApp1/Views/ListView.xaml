@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.Views.ListView"
+             xmlns:viewModels="clr-namespace:MauiApp1.ViewModels"
+             Title="ListView">
+    <ContentPage.BindingContext>
+        <viewModels:ListViewModel />
+    </ContentPage.BindingContext>
+    <VerticalStackLayout>
+        <CollectionView ItemsSource="{Binding Lists}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Padding="10">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto" />
+                            <RowDefinition Height="Auto" />
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Label Grid.Row="0" Grid.Column="0" Text="Name: " />
+                        <Label Grid.Row="0" Grid.Column="1" Text="{Binding Name}" />
+                        <Label Grid.Row="1" Grid.Column="0" Text="Beschreibung: " />
+                        <Label Grid.Row="1" Grid.Column="1" Text="{Binding Description}" />
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+
+</ContentPage>

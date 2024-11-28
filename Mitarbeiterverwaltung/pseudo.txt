@@ -1,0 +1,22 @@
+public string ErmittleMitarbeiterImBereich(Bereich_ID:Interger)
+{
+	string[] maImBereich;
+	string bId = "B" + Convert.ToString(Bereich_ID);
+	
+	
+	while(string[] line = LeseProtokollsatz() !=null)
+	{
+		if(line[2] == bId && line[4] == "true")
+		{
+			if(line[5] == "Z")
+			{
+				SchreibeInArray(maImBereich, line[3]);
+			}
+			else
+			{
+				LöscheAusArray(maImBereich, line[3])
+			}
+		}
+	}
+	return maImBereich;
+}

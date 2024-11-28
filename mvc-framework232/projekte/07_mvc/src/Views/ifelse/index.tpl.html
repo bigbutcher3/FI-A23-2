@@ -1,0 +1,127 @@
+<div class="card  mt-3">
+    <div class="card-body ">
+        <div class="row">
+            <div class="col-12">
+                <h1>{literal}{if},{elseif},{else}{/literal}</h1>
+                <table class="table" id="datensaetze">
+                    <thead>
+                    <tr>
+                        <th>Operator</th>
+                        <th>Alternativen</th>
+                        <th>Syntax Beispiel</th>
+                        <th>Bedeutung</th>
+                        <th>PHP Äquivalent</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td> ==</td>
+                        <td>eq</td>
+                        <td>$a eq $b</td>
+                        <td>ist gleich</td>
+                        <td> ==</td>
+                    </tr>
+                    <tr>
+                        <td>!=</td>
+                        <td>ne, neq</td>
+                        <td>$a neq $b</td>
+                        <td>ist ungleich</td>
+                        <td>!=</td>
+                    </tr>
+                    <tr>
+                        <td>></td>
+                        <td>gt</td>
+                        <td>$a gt $b</td>
+                        <td>größer als</td>
+                        <td>></td>
+                    </tr>
+                    <tr>
+                        <td><</td>
+                        <td>lt</td>
+                        <td>$a lt $b</td>
+                        <td>kleiner als</td>
+                        <td><</td>
+                    </tr>
+                    <tr>
+                        <td>>=</td>
+                        <td>gte, ge</td>
+                        <td>$a ge $b</td>
+                        <td>größer oder gleich</td>
+                        <td> >=</td>
+                    </tr>
+                    <tr>
+                        <td><=</td>
+                        <td>lte, le</td>
+                        <td>$a le $b</td>
+                        <td>kleiner oder gleich</td>
+                        <td><=</td>
+                    </tr>
+                    <tr>
+                        <td>===</td>
+                        <td></td>
+                        <td>$a === 0</td>
+                        <td>identisch</td>
+                        <td>===</td>
+                    </tr>
+                    <tr>
+                        <td>!</td>
+                        <td>not</td>
+                        <td>not $a</td>
+                        <td>Negation</td>
+                        <td>!</td>
+                    </tr>
+                    <tr>
+                        <td>%</td>
+                        <td>mod</td>
+                        <td>$a mod $b</td>
+                        <td>Modulo</td>
+                        <td> %</td>
+                    </tr>
+                    <tr>
+                        <td>is [not] div by</td>
+                        <td></td>
+                        <td>$a is not div by 4</td>
+                        <td> Ist [nicht] teilbar durch</td>
+                        <td>$a % $b == 0</td>
+                    </tr>
+                    <tr>
+                        <td>is [not] even</td>
+                        <td></td>
+                        <td>$a is not even</td>
+                        <td> ist [k]eine gerade Zahl</td>
+                        <td>$a % 2 == 0</td>
+                    </tr>
+                    <tr>
+                        <td>is [not] even by</td>
+                        <td></td>
+                        <td>$a is [not] even by $b
+                        <td>[k]eine gerade Gruppierung</td>
+                        <td>($a / $b) % 2 == 0</td>
+                    </tr>
+                    <tr>
+                        <td>is [not] odd</td>
+                        <td></td>
+                        <td> $a is not odd</td>
+                        <td>ist [k]eine ungerade Zahl</td>
+                        <td>$a % 2 != 0</td>
+                    </tr>
+                    <tr>
+                        <td>is [not] odd by</td>
+                        <td></td>
+                        <td>$a is not odd by $b
+                        <td>[k]eine ungerade Gruppierung</td>
+                        <td>($a / $b) % 2 != 0</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col-12">
+                {literal}
+                <p>{if Vergleichsoperatoren} true {/if} </p>
+                <p>{elseif Vergleichsoperatoren}true{/elseif} </p>
+                <p>{else}false{/else} </p>
+                {/literal}
+            </div>
+        </div>
+    </div>
+</div>

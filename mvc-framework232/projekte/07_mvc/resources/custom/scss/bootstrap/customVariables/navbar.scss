@@ -1,0 +1,20 @@
+:root {
+  //Nav
+  //Background-Color
+  --navi-link-bg: #{$color1};
+  //border-Color
+  --borderColor: #{$colorBorder};
+  //Fontsize Navi und FontColor
+  --navi-schriftgr: 1em;
+  --navi-color-schrift: #{$colorFonts};
+  //fontColor->hover
+  --navi-color-active-hover-schrift: #{$colorFonts};
+  --navi-bg-hover: #{$color5};
+  --navi-bg-activ: #{$color5};
+  --footer-bg-color: #{$color1};
+  //bgLight
+  --bs-light-rgb: 233, 223, 209 !important;
+  --bs-bg-opacity: 0.7 !important;
+  //transbox
+  --transbox-bg-color:#{$color4};
+}

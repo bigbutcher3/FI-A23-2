@@ -1,0 +1,20 @@
+ul, ol {
+    list-style: none;
+}
+
+ul.head i {
+    padding-right: 10px;
+    color: var(--liste-color);
+}
+
+ul.head li {
+    padding: 0.125em 1em;
+    color: var(--liste-color);
+}
+
+ul.liste li {
+    padding: 0.125em 1em;
+    list-style-type: var(--liste-style-type);
+    color: var(--liste-color);
+    line-height: 160% !important;
+}

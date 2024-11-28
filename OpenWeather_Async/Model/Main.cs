@@ -1,0 +1,34 @@
+﻿using System.Text.Json.Serialization;
+
+namespace OpenWeather_Async.Model
+{
+    public class Main
+    {
+        [JsonPropertyName("temp")]
+        public double temp { get; set; }
+
+        [JsonPropertyName("feels_like")]
+        public double feels_like { get; set; }
+
+        [JsonPropertyName("temp_min")]
+        public double temp_min { get; set; }
+
+        [JsonPropertyName("temp_max")]
+        public double temp_max { get; set; }
+
+        [JsonPropertyName("pressure")]
+        public int pressure { get; set; }
+
+        // in %
+        [JsonPropertyName("humidity")]
+        public int humidity { get; set; }
+
+        // Atmospheric pressure on the sea level, hPa
+        [JsonPropertyName("sea_level")]
+        public int sea_level { get; set; }
+
+        // Atmospheric pressure on the ground level, hPa
+        [JsonPropertyName("grnd_level")]
+        public int grnd_level { get; set; }
+    }
+}

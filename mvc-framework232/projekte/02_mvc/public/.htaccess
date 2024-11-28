@@ -1,0 +1,13 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteRule ^index\\.php$ - [L]
+#File vorrang gegenüber RewriteRule
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-l
+#RewriteRule ^(.*) index.php
+
+#controller/action/param1/param2/param3
+RewriteRule ^([^\/]+)(?:\/)?([^\/]+)?(?:\/)?([^\/]+)?(?:\/)?([^\/]+)?(?:\/)?([^\/]+)?(?:\/)?.*$ index.php?param1=$3&param2=$4&param3=$5
+</IfModule>
